@@ -1,0 +1,142 @@
+html, body {
+    margin: 0; /* Reset default margin */
+    padding: 0; /* Reset default padding */
+    height: 100%; /* Make sure html and body cover full height */
+    background-color: #e5e7e9;
+    text-align: center;
+}
+
+.top-container {
+    margin-top: 0;
+    background-image: url('./assets/mountain.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 1000px;
+    margin: 0;
+    padding: 0;
+}
+
+.top-texts {
+    position: relative;
+    right: 200px;
+    top: 200px;
+}
+
+a {
+    font-family: "Noto Serif", serif;
+}
+h1 {
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 7rem;
+    text-align: right;
+    color: gray;
+    margin: 0;
+}
+
+.subhead {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 2rem;
+    color: rgb(190, 185, 185);
+    text-align: right;
+    position: relative;
+    margin: 0;
+}
+
+
+.komacyus {
+    text-decoration: underline;
+    color: red;
+}
+
+
+h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 3rem;
+    color: black;
+    text-align: center;
+    position: relative;
+    margin-top: 20px;
+}
+
+.hey {
+    font-style: italic;
+}
+
+.my-photo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    margin-top: 20px;
+    border-radius: 3%;
+}
+
+
+.explanation { 
+    font-family: "Roboto", sans-serif;
+    color: gray;
+    font-size: 2rem;
+    width: 30%;
+    text-align: center;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+
+.bottom-container {
+    background-color: rgb(160, 156, 156);
+    padding: 50px 0 20px;
+    margin-top: 100px;
+  }
+  
+
+.copyright {
+    color: #eaf6f6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+  
+}
+
+.footer-link{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    margin: 10px 20px;
+    text-align: center;
+    cursor: pointer;
+  }
+
+hr {
+    border: dotted #eaf6f6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+  }
+
+
+
+.btn {
+    background:red;
+    background-image: -webkit-linear-gradient(top, #d41111, #9e1111);
+    background-image: -moz-linear-gradient(top, #d41111, #9e1111);
+    background-image: -ms-linear-gradient(top, #d41111, #9e1111);
+    background-image: -o-linear-gradient(top, #d41711, #9e1111);
+    background-image: linear-gradient(to bottom, #d41111, #9e1111);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin: 100px;
+  }
+
+  
